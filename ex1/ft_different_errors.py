@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
-def garden_operations():
+def garden_operations() -> None:
     """
-    Demonstrates handling of various Python built-in exceptions.
+    Demonstrates handling of various Python built-in exceptions
+    using try/except blocks, while keeping the program running.
     """
     print("Testing ValueError...")
     try:
@@ -44,11 +45,12 @@ def garden_operations():
 
 def test_error_types() -> None:
     """
-    Tests the garden_operations function.
+    Runs all error-handling demonstrations and shows that
+    the program continues execution after each error.
     """
     print("=== Garden Error Types Demo ===")
     garden_operations()
-    print("All error types tested successfully!")
+    print("All error types tested successfully!") 
 
 
 if __name__ == "__main__":

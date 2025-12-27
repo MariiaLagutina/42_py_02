@@ -16,14 +16,17 @@ class WaterError(GardenError):
 
 
 def check_crops() -> None:
+    """Checks crop health and raises PlantError if an issue is detected."""
     raise PlantError("The tomato plant is wilting!")
 
 
 def check_water() -> None:
+    """Checks water supply and raises WaterError if irrigation fails."""
     raise WaterError("Not enough water in the tank!")
 
 
 def ft_custom_errors() -> None:
+    """Demonstrates handling of custom garden-related errors."""
     print("=== Custom Garden Errors Demo ===")
     print()
 

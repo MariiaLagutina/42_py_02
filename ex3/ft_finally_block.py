@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-def water_plants(plant_list) -> None:
+def water_plants(plant_list: list) -> None:
     """
     Waters each plant in the list and ensures the system is always closed.
 
@@ -27,7 +27,7 @@ def test_watering_system() -> None:
     print()
 
     print("Testing normal watering...")
-    water_plants(["tomato", "lettuce", "carrots"])
+    water_plants(["zucchini", "paprika", "eggplant"])
     print("Watering completed successfully!")
     print()
 
