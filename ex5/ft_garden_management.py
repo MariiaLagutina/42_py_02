@@ -21,7 +21,7 @@ class GardenManager:
     def __init__(self) -> None:
         self.plants = []
 
-    def add_plant(self, name: str, water: int = 5, sun: int = 8) -> None:
+    def add_plant(self, name: str, water: int, sun: int) -> None:
         """Add a plant to the garden with basic validation."""
         if not name:
             raise PlantError("Plant name cannot be empty!")

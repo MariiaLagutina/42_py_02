@@ -49,6 +49,7 @@ def test_error_types() -> None:
     the program continues execution after each error.
     """
     print("=== Garden Error Types Demo ===")
+    print()
     garden_operations()
     print("All error types tested successfully!")
 
